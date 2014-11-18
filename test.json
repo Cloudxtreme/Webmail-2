@@ -1,0 +1,30 @@
+[
+	{
+		"text":"写信",
+		"iconCls":"icon-add"
+	},
+	{
+		"text":"收信",
+		"iconCls":"icon-edit"
+	},
+	{
+		"text":"通讯录",
+		"iconCls":"icon-edit"
+	},
+	{
+		"text":"收件箱",
+		"iconCls":"icon-edit"
+	},
+	{
+		"text":"发件箱",
+		"iconCls":"icon-edit"
+	},
+	{
+		"text":"草稿箱",
+		"iconCls":"icon-edit"
+	},
+	{
+		"text":"已删除",
+		"iconCls":"icon-edit"
+	}
+]
