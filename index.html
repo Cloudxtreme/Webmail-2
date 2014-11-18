@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>test</title>
+		<link rel="stylesheet" type="text/css" href="./easyui/themes/icon.css" />
+		<link rel="stylesheet" type="text/css" href="./easyui/themes/default/easyui.css" />
+		<script type="text/javascript" src="./easyui/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./easyui/themes/color.css" />
+		<script type="text/javascript" src="./easyui/jquery.easyui.min.js"></script>
+	</head>
+	<body class="easyui-layout">
+		<div data-options="region:'north'" style="height:15%" title="notrh"></div>
+		<div data-options="region:'west'"  style="width:200px" title="east">
+			<ul class="easyui-tree">
+				<li><a href="#"  style="width:120px">写信</a></li>
+				<li><a href="#"  style="width:120px">收信</a></li>
+				<li><a href="#"  style="width:120px">通讯录</a></li>
+				<hr/>
+				<li><a href="#"  style="width:120px">收件箱</a></li>
+				<li><a href="#"  style="width:120px">发件箱</a></li>
+				<li><a href="#"  style="width:120px">草稿箱</a></li>
+				<li><a href="#"  style="width:120px">已删除</a></li>
+				<li><a href="#"  style="width:120px">已删除</a></li>
+				<li><a href="#"  style="width:120px">已删除</a></li>
+			</ul>
+		</div>
+		<div data-options="region:'center'" title="center">
+			<div class="easyui-tabs">
+				<div title="收件箱" data-options="closable:true"></div>
+				<div title="发件箱" data-options="closable:true"></div>
+				<div title="垃圾箱" data-options="closable:true"></div>
+			</div>
+		</div>
+		<div data-options="region:'east'" style="width:15%" title="通讯录">
+			<ul class="easyui-tree">
+				<li><span>赵世坤</span></li>
+				<li><span>赵世坤</span></li>
+				<li><span>赵世坤</span></li>
+				<li><span>赵世坤</span></li>
+				<li><span>赵世坤</span></li>
+			</ul>
+		</div>
+	</body>
+</html>

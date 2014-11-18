@@ -1,0 +1,80 @@
+[18-Nov-2014 01:48:04 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 01:48:04 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:12:41 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:12:41 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:22:34 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:22:34 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:23:17 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:23:17 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:25:23 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:25:23 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:26:16 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 02:26:16 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 03:17:58 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 03:17:58 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 03:18:01 UTC] PHP Notice:  Undefined variable: message in C:\Apache24\htdocs\webmail\test.php on line 66
+[18-Nov-2014 03:21:02 UTC] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 03:21:02 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 35
+[18-Nov-2014 03:21:06 UTC] PHP Notice:  Undefined property: stdClass::$dparameters in C:\Apache24\htdocs\webmail\test.php on line 50
+[18-Nov-2014 03:21:06 UTC] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 50
+[18-Nov-2014 11:24:12 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:24:12 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:26:28 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:26:28 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:27:22 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:27:22 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:28:35 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:28:35 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:41:43 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:41:43 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 03:43:27 UTC] PHP Parse error:  syntax error, unexpected '"content encoding is "' (T_CONSTANT_ENCAPSED_STRING) in C:\Apache24\htdocs\webmail\test.php on line 54
+[18-Nov-2014 11:44:16 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:44:16 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 11:44:19 Asia/Chongqing] PHP Notice:  Undefined offset: 1 in C:\Apache24\htdocs\webmail\test.php on line 53
+[18-Nov-2014 12:04:09 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:04:09 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:04:11 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in C:\Apache24\htdocs\webmail\test.php on line 53
+[18-Nov-2014 12:05:59 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:05:59 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:07:56 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:07:56 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:10:42 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:10:42 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:10:45 Asia/Chongqing] PHP Notice:  iconv(): Detected an illegal character in input string in C:\Apache24\htdocs\webmail\test.php on line 66
+[18-Nov-2014 12:13:42 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:13:42 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:15:36 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:15:36 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:16:37 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:16:37 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:16:39 Asia/Chongqing] PHP Warning:  imap_fetchstructure(): No body information available in C:\Apache24\htdocs\webmail\test.php on line 75
+[18-Nov-2014 12:16:39 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 77
+[18-Nov-2014 12:16:39 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 78
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_open(): Couldn't open stream {imap.qq.com:993/imap/ssl} in C:\Apache24\htdocs\webmail\test.php on line 5
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_list() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 7
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\webmail\test.php on line 8
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_reopen() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 12
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_num_msg() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 13
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_fetch_overview() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 14
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\webmail\test.php on line 15
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_reopen() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 27
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_num_msg() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 28
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_fetch_overview() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 29
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\webmail\test.php on line 30
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_fetchstructure() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 43
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 45
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 46
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 48
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\webmail\test.php on line 48
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_fetchstructure() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 75
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 77
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 78
+[18-Nov-2014 12:17:09 Asia/Chongqing] PHP Warning:  imap_fetchbody() expects parameter 1 to be resource, boolean given in C:\Apache24\htdocs\webmail\test.php on line 80
+[18-Nov-2014 12:17:37 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:17:37 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\test.php on line 36
+[18-Nov-2014 12:30:49 Asia/Chongqing] PHP Warning:  imap_fetchbody(): Bad message number in C:\Apache24\htdocs\webmail\test.php on line 80
+[18-Nov-2014 12:32:00 Asia/Chongqing] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\test.php on line 5
+[18-Nov-2014 08:14:45 UTC] PHP Fatal error:  Using $this when not in object context in C:\Apache24\htdocs\webmail\test2.php on line 507
+[18-Nov-2014 08:18:22 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Apache24\htdocs\webmail\test2.php on line 507
+[18-Nov-2014 08:19:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\test2.php on line 207
+[18-Nov-2014 08:20:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\test2.php on line 207
