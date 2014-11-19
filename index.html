@@ -12,40 +12,13 @@
 	<body class="easyui-layout">
 		<div data-options="region:'north'" style="height:10%" title="notrh"></div>
 		<div data-options="region:'west'"  style="width:200px" title="east">
-			<ul class="easyui-tree" id="boxs" data-options="url:'contacts.json',method:'get'"></ul>
+			<ul class="easyui-tree" id="boxs" data-options="url:'folders.json',method:'get'"></ul>
 		</div>
 		<div data-options="region:'center'" title="center">
 			<div id="content" class="easyui-tabs" data-options="tools:'#tab-tools'" style="height:auto">
 				<!--here is write message-->
 				<!--here is end write messsage-->
 				<!--here is sendbox -->
-				<div title="收件箱" data-options="closable:true">
-					<table class="easyui-datagrid" data-options="fit:true,singleSelect:true,rownumbers:true">
-						<thead>
-							<tr>
-								<th data-options="field:'ck',checkbox:true" style="width:5%"></th>
-								<th data-options="field:'f1'" style="width:5%">附件</th>
-								<th data-options="field:'f2'" style="width:25%">发件人</th>
-								<th data-options="field:'f3'" style="width:50%">主题</th>
-								<th data-options="field:'f4'" style="width:10%">时间</th>
-								<th data-options="field:'f5'" style="width:5%">标记</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-							   <td>d11</td>
-								<td>d12</td>
-								<td>d13</td>
-							</tr>
-							<tr>
-								<td>d21</td>
-								<td>d22</td>
-								<td>d23</td>
-							</tr>
-						</tbody>
-					</table>
-					<div class="easyui-pagination" data-options="total:114"></div>
-				</div>
 				<!--here end sendbox-->
 				<!--here begin mail content-->
 				<div title="邮件标题" style="width:100%" data-options="closable:true">
@@ -94,6 +67,9 @@
 					}
 					else if(text=='写信'){
 						addTab('写信','write.html');
+					}
+					else if(text=='邮件内容'){
+						addTab('邮件内容','content.html');
 					}
 					else{
 						alert('开发中');

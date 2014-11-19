@@ -1,24 +1,16 @@
-<table class="easyui-datagrid" data-options="fit:true,singleSelect:true,rownumbers:true" style="width:500px;height:200px">
-	<thead>
-		<tr>
-			<th data-options="field:'ck',checkbox:true" style="width:5%"></th>
-			<th data-options="field:'f1'" style="width:5%">附件</th>
-			<th data-options="field:'f2'" style="width:25%">发件人</th>
-			<th data-options="field:'f3'" style="width:50%">主题</th>
-			<th data-options="field:'f4'" style="width:10%">时间</th>
-			<th data-options="field:'f5'" style="width:5%">标记</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-		   <td>d11</td>
-			<td>d12</td>
-			<td>d13</td>
-		</tr>
-		<tr>
-			<td>d21</td>
-			<td>d22</td>
-			<td>d23</td>
-		</tr>
-	</tbody>
-</table>
+<div class="easyui-panel" style="width:100%;hieght:auto">
+		<table id="dg" class="easyui-datagrid" style="width:100%;height:auto"
+			data-options="rownumbers:true,url:'datagrid_data1.json',method:'get',pagination:true,pageSize:10">
+		<thead>
+			<tr>
+				<th data-options="field:'ck',checkbox:true"></th>
+				<th data-options="field:'itemid',width:80">Item ID</th>
+				<th data-options="field:'productid',width:100">Product</th>
+				<th data-options="field:'listprice',width:80,align:'right'">List Price</th>
+				<th data-options="field:'unitcost',width:80,align:'right'">Unit Cost</th>
+				<th data-options="field:'attr1',width:220">Attribute</th>
+				<th data-options="field:'status',width:60,align:'center'">Status</th>
+			</tr>
+		</thead>
+	</table>
+</div>
