@@ -46,39 +46,45 @@ echo "primary body type:".$structure->type."<br/>";
 echo "body transfer encoding:".$structure->encoding."<br/>";
 echo "parts:";
 var_dump($structure);
-foreach($structure->parts as $key => $value){
-	$t_encoding=$structure->parts[$key]->encoding;
-	//$name=$structure->parts[$key]->dparameters[0]->value;
-	$message=imap_fetchbody($mail,'2',$key+1);
-	$encoding=$structure->parts[$key]->parameters[0]->value;
-	echo "<br/>===================".$encoding."-------------------<br/>";
-	echo "part".$key."<br/>";
-	if($t_encoding ==0 or $t_encoding ==1){
-		$message=imap_8bit($message);
-	}
-	else if($t_encoding==2){
-		$message=imap_binary($message);
-	}
-	else if($t_encoding==3){
-		$message=imap_base64($message);
-	}
-	else if($t_encoding==4){
-		$message=quoted_printable_decode($message);
-	}
-	if($encoding=='gb2312'){
-		echo iconv("GB2312","UTF-8",$message);
-	}
-	else if($encoding=='utf-8'){
-		echo $message;
+if($structure->parts){
+	foreach($structure->parts as $key => $value){
+		$t_encoding=$structure->parts[$key]->encoding;
+		//$name=$structure->parts[$key]->dparameters[0]->value;
+		$message=imap_fetchbody($mail,'2',$key+1);
+		$encoding=$structure->parts[$key]->parameters[0]->value;
+		echo "<br/>===================".$encoding."-------------------<br/>";
+		echo "part".$key."<br/>";
+		if($t_encoding ==0 or $t_encoding ==1){
+			$message=imap_8bit($message);
+		}
+		else if($t_encoding==2){
+			$message=imap_binary($message);
+		}
+		else if($t_encoding==3){
+			$message=imap_base64($message);
+		}
+		else if($t_encoding==4){
+			$message=quoted_printable_decode($message);
+		}
+		if($encoding=='gb2312'){
+			echo iconv("GB2312","UTF-8",$message);
+		}
+		else if($encoding=='utf-8'){
+			echo $message;
+		}
+		if($structure->parts[$key]->parameters[0]->attribute=='charset'){
+			$message=iconv('GB2312','UTF-8',$message);
+			echo $message."<br/>";
+		}
 	}
 }
 //messagenum:4 it's text type,and transfer encoding is base64
 $structure=imap_fetchstructure($mail,2);
-echo "<br/>".str_repeat("=",80)."<br/>";
-echo "primary body type:".$structure->type."<br/>";
-echo "body transfer encoding:".$structure->encoding."<br/>";
-//get body's content when body's type is text(0)
-$body=imap_fetchbody($mail,2,'1');
-$f=fopen('test.txt','w');
-fwrite($f,imap_base64($body));
-fclose($f);
+	echo "<br/>".str_repeat("=",80)."<br/>";
+	echo "primary body type:".$structure->type."<br/>";
+	echo "body transfer encoding:".$structure->encoding."<br/>";
+	//get body's content when body's type is text(0)
+	$body=imap_fetchbody($mail,2,'1');
+	$f=fopen('test.txt','w');
+	fwrite($f,imap_base64($body));
+	fclose($f);

@@ -1,0 +1,7 @@
+﻿mailreader     https://github.com/stuporglue/mailreader commandline
+receivemail
+MailLibrary    https://github.com/greeny/MailLibrary       good  use不太清楚
+php-imap       https://github.com/cnizzdotcom/php/imap
+mailer         https://github.com/zazza/mailer             mysql,不是英文
+mail	       https://github.com/nette/mail               发送邮件很方便
+php中的use

@@ -1,4 +1,5 @@
 <?php
+header("title:hello");
 date_default_timezone_set("Asia/Chongqing");
 //date_default_timezone_set("Asia/Kolkata");
 $url="{imap.qq.com:993/imap/ssl}";
@@ -36,6 +37,21 @@ for($i=1;$i<=10;$i++){
 	echo "body transfer encoding is ".$structure->encoding."<br/>";
 	echo "if have a description ".$structure->ifdescription."<br/>";
 	echo "structure's parts is <br/>";
-	echo var_dump($structure->parts);
+	echo var_dump($structure->parts)."<Br/>";
+	foreach($structure->parts as $key=>$value){
+		$t_encoding=$structure->parts[$key]->encoding;
+		$message=imap_fetchbody($mail,$i,$key+1);
+		if($t_encoding==0 or $t_encoding==1){
+			$message=imap_8bit($message);
+		}
+		else if($t_encoding==2){
+			$message=imap_binary($message);
+		}
+		else if($t_encoding==3){
+			$message=imap_base64($message);
+		}
+		else if($t_encoding==4){
+			$message==quoted_printable_decode($message);
+		}
 }
 ?>
