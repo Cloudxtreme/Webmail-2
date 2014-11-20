@@ -1,18 +1,46 @@
-<form>
+<script type="text/javascript">
+	function submitForm(){
+		var receiver=$('#receiver').textbox('getValue');
+		var subject=$('#subject').textbox('getValue');
+		var content=$('#mailcontent').textbox('getValue');
+		alert('subject is'+content);
+		$.post('aftersend.php',
+				{
+					recieiver:receiver,
+					subject:subject,
+					content:content
+				},
+				function (data){
+					var tab=$('#content').tabs('getSelected');
+					$('#content').tabs('update',{
+						tab:tab,
+						options:{
+							title:'hello',
+							href:data
+						}
+					})
+				}
+		);
+		//here send the email and get return value
+		//here refresh the tab
+	}
+</script>
+<form id="ff" method="post" action="aftersend.php">
 	<label for="send" class="easyui-linkbutton" style="width:100px" data-options="plain:true">收件人:</label>
-	<input id="send" class="easyui-textbox" type="text" style="width:90%" />
+	<input id="receiver" class="easyui-textbox" type="text" style="width:90%"/>
 	<br/>
 	<label for="subject" class="easyui-linkbutton" style="width:100px" data-options="plain:true">主题:</label>
-	<input class="easyui-textbox" type="text" style="width:90%" />
+	<input id="subject" class="easyui-textbox" type="text" style="width:90%" />
 	<br/>
 	<label for="content" class="easyui-linkbutton" style="width:100px" data-options="plain:true">正文:</label>
-	<input class="easyui-textbox" data-options="multiline:true" style="height:400px;width:90%" />
+	<input id="mailcontent" class="easyui-textbox" data-options="multiline:true" style="height:400px;width:90%" />
 	<br/>
 	发件人:赵世坤<zhaoshikun@foxmail.com>
 	<div class="easyui-panel" style="width:100%;height:30px" data-options="selected:false">
 		<input type="checkbox" name="huifu" id="huifu"><label for="huifu">回复</label>
 		<input type="checkbox" name="jinji" id="jinji"><label for="jinji">紧急</label>
 	</div>
-	<a class="easyui-linkbutton" style="width:100px" href="#">发送</a>
+	<a id="send" class="easyui-linkbutton" style="width:100px" href="#" onclick="submitForm()">发送</a>
+	<!--<input type="submit" value="test" />-->
 	<a class="easyui-linkbutton" href="#" style="width:100px" >定时发送</a>
 </form>

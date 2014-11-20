@@ -78,3 +78,83 @@
 [18-Nov-2014 08:18:22 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Apache24\htdocs\webmail\test2.php on line 507
 [18-Nov-2014 08:19:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\test2.php on line 207
 [18-Nov-2014 08:20:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\test2.php on line 207
+[20-Nov-2014 02:16:32 UTC] PHP Warning:  require(PHPMailerAutoload.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\webmail\testsend.php on line 2
+[20-Nov-2014 02:16:32 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailerAutoload.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\webmail\testsend.php on line 2
+[20-Nov-2014 08:23:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Apache24\htdocs\webmail\aftersend.php on line 38
+[20-Nov-2014 08:25:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Apache24\htdocs\webmail\aftersend.php on line 38
+[20-Nov-2014 08:27:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Apache24\htdocs\webmail\aftersend.php on line 39
+[20-Nov-2014 09:07:07 UTC] PHP Warning:  Missing argument 1 for ReceiveMail::__construct(), called in C:\Apache24\htdocs\webmail\myreceive.php on line 14 and defined in C:\Apache24\htdocs\webmail\myreceive.php on line 9
+[20-Nov-2014 09:07:07 UTC] PHP Warning:  Missing argument 2 for ReceiveMail::__construct(), called in C:\Apache24\htdocs\webmail\myreceive.php on line 14 and defined in C:\Apache24\htdocs\webmail\myreceive.php on line 9
+[20-Nov-2014 09:07:07 UTC] PHP Warning:  Missing argument 3 for ReceiveMail::__construct(), called in C:\Apache24\htdocs\webmail\myreceive.php on line 14 and defined in C:\Apache24\htdocs\webmail\myreceive.php on line 9
+[20-Nov-2014 09:07:07 UTC] PHP Warning:  Missing argument 4 for ReceiveMail::__construct(), called in C:\Apache24\htdocs\webmail\myreceive.php on line 14 and defined in C:\Apache24\htdocs\webmail\myreceive.php on line 9
+[20-Nov-2014 09:07:07 UTC] PHP Notice:  Undefined variable: uer in C:\Apache24\htdocs\webmail\myreceive.php on line 10
+[20-Nov-2014 09:07:07 UTC] PHP Notice:  Undefined variable: password in C:\Apache24\htdocs\webmail\myreceive.php on line 10
+[20-Nov-2014 09:07:07 UTC] PHP Warning:  imap_open(): Couldn't open stream {$host:$port/imap/ssl} in C:\Apache24\htdocs\webmail\myreceive.php on line 10
+[20-Nov-2014 17:08:46 Asia/Chongqing] PHP Notice:  Undefined variable: uer in C:\Apache24\htdocs\webmail\myreceive.php on line 11
+[20-Nov-2014 17:08:46 Asia/Chongqing] PHP Warning:  imap_open(): Couldn't open stream {$host:$port/imap/ssl} in C:\Apache24\htdocs\webmail\myreceive.php on line 11
+[20-Nov-2014 09:09:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '}' in C:\Apache24\htdocs\webmail\myreceive.php on line 11
+[20-Nov-2014 09:10:12 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '}' in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 09:10:13 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '}' in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:11:27 Asia/Chongqing] PHP Notice:  Undefined variable: uer in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:11:32 Asia/Chongqing] PHP Warning:  imap_open(): Couldn't open stream {imap.qq.com:993/imap/ssl} in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:12:59 Asia/Chongqing] PHP Notice:  Undefined variable: uer in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:13:05 Asia/Chongqing] PHP Warning:  imap_open(): Couldn't open stream {imap.qq.com:993/imap/ssl} in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 09:20:49 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '(' in C:\Apache24\htdocs\webmail\myreceive.php on line 19
+[20-Nov-2014 17:22:09 Asia/Chongqing] PHP Warning:  imap_list() expects parameter 1 to be resource, null given in C:\Apache24\htdocs\webmail\myreceive.php on line 15
+[20-Nov-2014 17:24:47 Asia/Chongqing] PHP Warning:  imap_list() expects parameter 1 to be resource, null given in C:\Apache24\htdocs\webmail\myreceive.php on line 14
+[20-Nov-2014 17:33:35 Asia/Chongqing] PHP Fatal error:  Call to a member function getFolders() on resource in C:\Apache24\htdocs\webmail\myreceive.php on line 6
+[20-Nov-2014 17:34:04 Asia/Chongqing] PHP Notice:  Undefined variable: folders in C:\Apache24\htdocs\webmail\myreceive.php on line 6
+[20-Nov-2014 17:34:04 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\webmail\myreceive.php on line 6
+[20-Nov-2014 09:42:59 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in C:\Apache24\htdocs\webmail\myreceive.php on line 8
+[20-Nov-2014 17:43:21 Asia/Chongqing] PHP Warning:  imap_reopen() expects at least 2 parameters, 1 given in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Warning:  imap_mime_header_decode() expects parameter 1 to be string, object given in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Warning:  imap_mime_header_decode() expects parameter 1 to be string, object given in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Warning:  imap_mime_header_decode() expects parameter 1 to be string, object given in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Warning:  imap_mime_header_decode() expects parameter 1 to be string, object given in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:43:30 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:46:57 Asia/Chongqing] PHP Warning:  imap_reopen() expects at least 2 parameters, 1 given in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:46:58 Asia/Chongqing] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\Apache24\htdocs\webmail\myreceive.php on line 18
+[20-Nov-2014 17:47:40 Asia/Chongqing] PHP Warning:  imap_reopen() expects at least 2 parameters, 1 given in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:50:35 Asia/Chongqing] PHP Warning:  imap_reopen() expects at least 2 parameters, 1 given in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:51:38 Asia/Chongqing] PHP Warning:  imap_reopen() expects at least 2 parameters, 1 given in C:\Apache24\htdocs\webmail\myreceive.php on line 12
+[20-Nov-2014 17:52:51 Asia/Chongqing] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\myreceive.php on line 5
+[20-Nov-2014 17:54:47 Asia/Chongqing] PHP Warning:  imap_mime_header_decode() expects parameter 1 to be string, array given in C:\Apache24\htdocs\webmail\myreceive.php on line 15
+[20-Nov-2014 17:56:57 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:56:57 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:56:57 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:56:57 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:57:34 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$chaset in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:57:34 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$chaset in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:57:34 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$chaset in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 17:57:34 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$chaset in C:\Apache24\htdocs\webmail\myreceive.php on line 17
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$in_reply_to in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$uid in C:\Apache24\htdocs\webmail\myreceive.php on line 25
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$in_reply_to in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$uid in C:\Apache24\htdocs\webmail\myreceive.php on line 25
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$in_reply_to in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$uid in C:\Apache24\htdocs\webmail\myreceive.php on line 25
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\myreceive.php on line 22
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 22
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$in_reply_to in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 23
+[20-Nov-2014 18:04:45 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$uid in C:\Apache24\htdocs\webmail\myreceive.php on line 25
+[20-Nov-2014 18:05:45 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\webmail\myreceive.php on line 22
+[20-Nov-2014 18:05:45 Asia/Chongqing] PHP Notice:  Trying to get property of non-object in C:\Apache24\htdocs\webmail\myreceive.php on line 22
+[20-Nov-2014 10:15:55 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Apache24\htdocs\webmail\myreceive.php on line 34
+[20-Nov-2014 18:19:31 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$parts in C:\Apache24\htdocs\webmail\myreceive.php on line 38
+[20-Nov-2014 18:21:04 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$parts in C:\Apache24\htdocs\webmail\myreceive.php on line 38
+[20-Nov-2014 18:21:09 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$parts in C:\Apache24\htdocs\webmail\myreceive.php on line 38
+[20-Nov-2014 10:30:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Apache24\htdocs\webmail\myreceive.php on line 39
+[20-Nov-2014 18:31:23 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$parts in C:\Apache24\htdocs\webmail\myreceive.php on line 39
+[20-Nov-2014 18:31:30 Asia/Chongqing] PHP Notice:  Undefined property: stdClass::$parts in C:\Apache24\htdocs\webmail\myreceive.php on line 39
+[20-Nov-2014 18:31:35 Asia/Chongqing] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Apache24\htdocs\webmail\myreceive.php on line 34
